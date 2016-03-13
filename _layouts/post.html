@@ -9,12 +9,12 @@ layout: default
   <header class="post-header">
     <h2 class="post-title" itemprop="name headline"><i class="fa fa-pencil-square-o"></i> {{ page.title }}</h2>
 
-    <h3 class="post-organisers-name">By {{organiser.name}}</h3>
+    <h3 class="post-organisers-name">By <a href="{{organiser.linkedin}}"></a>{{organiser.name}}</h3>
   </header>
 
     <div class="post-content" itemprop="articleBody">
 
-    <p><i class="fa fa-clock-o"></i> From {{ page.start_time}} to {{page.end_time }}</p>
+    <p><strong><i class="fa fa-clock-o"></i> From {{ page.start_time}} to {{page.end_time }}</strong></p>
 
     {{ content }}
   </div>
