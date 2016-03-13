@@ -1,15 +1,4 @@
-# Evento Theme/Blog
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Precision Medicine Symposium
-
-#What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
-event_label: Talks
 
 description: > # this means to ignore newlines until "baseurl:"
   Precision Medicine Initiative (PMI) Symposium happening at the University of Central Florida. Hosted by the Center for Entrepreneurial Leadership.
@@ -17,14 +6,5 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: '/pmi'
 url: "http://opsbug.com"
 
-#These settings might be able to go?
-author: Vikram Dhillon
-
 # Build settings
 markdown: kramdown
-
-#Have to show future posts for future events.
-future: true
-
-permalink: /event/:title.html
-
