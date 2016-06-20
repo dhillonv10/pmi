@@ -14,7 +14,6 @@ event_label: Talks
 description: > # this means to ignore newlines until "baseurl:"
   Precision Medicine Initiative (PMI) Symposium happening at the University of Central Florida. Hosted by the Center for Entrepreneurial Leadership.
 
-baseurl: '/pmi'
 url: "http://opsbug.com"
 
 #These settings might be able to go?
